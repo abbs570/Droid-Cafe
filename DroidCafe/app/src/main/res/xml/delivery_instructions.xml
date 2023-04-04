@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/delivery_method_header">
+
+        <ListPreference
+            app:defaultValue="US"
+
+            app:entryValues="@array/delivery_titles"
+            app:key="delivery"
+            app:negativeButtonText="@null"
+            app:positiveButtonText="@null"
+            app:title="@string/delivery_account" />
+
+    </PreferenceCategory>
+    <ListPreference
+        android:entries="@array/delivery_titles"
+        android:entryValues="@array/delivery_titles"
+        android:key="list_preference_1"
+        android:title="List preference" />
+
+</PreferenceScreen>

@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Droid Cafe</string>
+    <string name="donuts">Donuts are glazed and sprinkled with candy.</string>
+    <string name="intro_text">Droid Desserts</string>
+    <string name="ice_cream_sandwiches">Ice cream sandwiches have chocolate wafers and vanilla filling.</string>
+    <string name="froyo">Froyo is premium self-serve frozen yogurt.</string>
+    //messages for when user clicks on pictures
+    <string name="donut_order_message">You ordered a donut.</string>
+    <string name="ice_cream_order_message">You ordered an ice cream sandwich.</string>
+    <string name="froyo_order_message">You ordered FroYo</string>
+
+    //
+    <string name="order_label_text">\@EXTRA_MESSAGE</string>
+    <string name="name_label_text">Name</string>
+    <string name="address_label_text">Address</string>
+    <string name="phone_label_text">Phone</string>
+    <string name="enter_phone_hint">Enter phone</string>
+    <string name="note_label_text">Note</string>
+    <string name="enter_note_hint">Enter note</string>
+    <string name="delivery_text">Choose a delivery method</string>
+    <string name="same_day_messenger_service">Same day messenger service</string>
+    <string name="next_day_ground_delivery">Next day ground delivery</string>
+    <string name="pick_up">Pick up</string>
+    <string name="action_contact">You Selected Contact</string>
+    <string name="action_order">You Selected Order</string>
+    <string name="action_status">You Selected Status</string>
+    <string name="action_favorites">You Selected Favorites</string>
+    <string name="button_date">DATE</string>
+    <string name="title_activity_order">Order Activity</string>
+
+    //define selectable values for the spinner
+
+    <string-array name="labels_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="pref_header_account">Account</string>
+    <string name="delivery_method_header">Delivery Method</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="pref_title_account">Market</string>
+    <string-array name="pref_market_titles">
+        <item>United States</item>
+        <item>Canada</item>
+        <item>United Kingdom</item>
+        <item>India</item>
+        <item>Japan</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="pref_market_values">
+        <item>US</item>
+        <item>CA</item>
+        <item>UK</item>
+        <item>IN</item>
+        <item>JA0</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="delivery_account">Delivery</string>
+    <string-array name="delivery_titles">
+        <item>Same day messenger service</item>
+        <item>Next day ground delivery</item>
+        <item>pick up</item>
+    </string-array>
+
+
+
+
+
+
+
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_setting">Settings Activity</string>
+    <string name="settings">Settings</string>
+
+</resources>
